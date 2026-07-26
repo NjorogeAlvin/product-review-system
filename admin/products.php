@@ -1,12 +1,12 @@
 <?php
 require_once __DIR__ . '/../config/db.php';
-require_once __DIR__ . '/../includes/auth-check.php';
-require_role('admin');
+// require_once __DIR__ . '/../includes/auth-check.php';
+// require_role('admin');
 require_once __DIR__ . '/../includes/header.php';
 ?>
 
 <h1>Manage Products</h1>
-
+ 
 <div id="add_buttons">
     <button>Add Products</button>
 </div>

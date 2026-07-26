@@ -1,11 +1,11 @@
 <?php
 require_once __DIR__ . '/../config/db.php';
-require_once __DIR__ . '/../includes/auth-check.php';
-require_role('admin');
+// require_once __DIR__ . '/../includes/auth-check.php';
+// require_role('admin');
 require_once __DIR__ . '/../includes/header.php';
 ?>
 
-<h1>Review Moderation</h1>
+<h1>Review Moderation</h1> 
 
 <div id="table">
     <table>

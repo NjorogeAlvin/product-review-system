@@ -286,3 +286,55 @@ th {
     color: #27ae60;
     font-weight: bold;
 }
+
+/* Admin — Products & Moderation */
+#table {
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(19, 78, 74, 0.1);
+    padding: 18px;
+    border: 1px solid #e5e5e3;
+    margin-top: 15px;
+}
+
+#table caption {
+    text-align: left;
+    font-weight: 700;
+    color: #134E4A;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+#add_buttons button {
+    background-color: #134E4A;
+    color: #FAFAF9;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#add_buttons button:hover {
+    background-color: #0d3a37;
+}
+
+.actions a {
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 12px;
+}
+
+.actions .edit {
+    color: #134E4A;
+}
+
+.actions .delete,
+.actions .reject {
+    color: #F43F5E;
+}
+
+.actions .approve {
+    color: #27ae60;
+}
