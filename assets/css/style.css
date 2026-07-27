@@ -305,18 +305,17 @@ th {
     font-size: 1.1rem;
 }
 
-#add_buttons button {
+#addbtn {
+    display: inline-block;
     background-color: #134E4A;
     color: #FAFAF9;
-    border: none;
+    text-decoration: none;
     padding: 10px 16px;
     border-radius: 6px;
-    cursor: pointer;
-    font-size: 14px;
     font-weight: 600;
+    font-size: 14px;
 }
-
-#add_buttons button:hover {
+#addbtn:hover {
     background-color: #0d3a37;
 }
 
