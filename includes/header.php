@@ -28,7 +28,7 @@ $role     = $_SESSION['role'] ?? null;
             <?php endif; ?>
 
             <?php if ($loggedIn && $role === 'reviewer'): ?>
-                <a href="/product-review-system/reviewer/submit-review.php">Write a Review</a>
+                <a href="/product-review-system/reviewer/submit-reviwer.php">Write a Review</a>
             <?php endif; ?>
 
             <?php if ($loggedIn): ?>
