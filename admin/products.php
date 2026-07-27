@@ -5,7 +5,7 @@ require_role('admin');
 
 $showForm = isset($_GET['action']) && $_GET['action'] === 'add';
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($_POST['product_id'])) {
     $name  = $_POST['name'];
     $brand = $_POST['brand'];
     $price = $_POST['price'];
