@@ -119,7 +119,7 @@ require_once __DIR__ . '/../includes/header.php';
                         <td><?= htmlspecialchars($product['specs']) ?></td>
                         <td class="actions">
                             <a href="products.php?action=edit&product_id=<?= $product['product_id'] ?>" class="edit">Edit</a>
-                            <a href="products.php?action=delete&product_id=<?= $product['product_id'] ?>" class="delete">Delete</a>
+                            <a href="products.php?action=delete&product_id=<?= $product['product_id'] ?>" class="delete" onclick="return confirm('Delete this product? This cannot be undone.');">Delete</a>
                         </td>
                     </tr>
                 <?php endwhile; ?>
@@ -128,4 +128,4 @@ require_once __DIR__ . '/../includes/header.php';
     </table>
 </div>
 
-<?php require_once __DIR__ . '/../includes/footer.php'; ?>
+<?php require_once __DIR__ . '/../includes/footer.php'; ?> 

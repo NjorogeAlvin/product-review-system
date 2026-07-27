@@ -67,7 +67,7 @@ require_once __DIR__ . '/../includes/header.php';
                         <td class="status-<?= $review['status'] ?>"><?= $review['status'] ?></td>
                         <td class="actions">
                             <a href="moderate.php?action=approve&review_id=<?= $review['review_id'] ?>" class="approve">Approve</a>
-                            <a href="moderate.php?action=delete&review_id=<?= $review['review_id'] ?>" class="delete">Delete</a>
+                            <a href="moderate.php?action=delete&review_id=<?= $review['review_id'] ?>" class="delete" onclick="return confirm('Delete this review? This cannot be undone.');">Delete</a>
                         </td>
                     </tr>
                 <?php endwhile; ?>
