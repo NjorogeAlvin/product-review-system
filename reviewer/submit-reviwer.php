@@ -56,7 +56,7 @@ include '../includes/header.php';
 <?php if ($success_msg): ?><div class="msg-success"><?= htmlspecialchars($success_msg) ?></div><?php endif; ?>
 <?php if ($error_msg): ?><div class="msg-error"><?= htmlspecialchars($error_msg) ?></div><?php endif; ?>
 
-<form method="POST" action="submit-review.php">
+<form method="POST" action="submit-reviwer.php">
     <label for="product_id">Select Product</label>
     <select name="product_id" id="product_id" required>
         <option value="">-- Choose a product --</option>
