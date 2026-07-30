@@ -59,7 +59,7 @@ include '../includes/header.php';
     <p class="description"><?= nl2br(htmlspecialchars($product['specs'])) ?></p>
 
     <?php if (isset($_SESSION['role']) && $_SESSION['role'] === 'reviewer'): ?>
-        <a class="btn-accent" href="../reviewer/submit-review.php?product_id=<?= $product['product_id'] ?>">Write a Review</a>
+        <a class="btn-accent" href="../reviewer/submit-reviwer.php?product_id=<?= $product['product_id'] ?>">Write a Review</a>
     <?php endif; ?>
 </div>
 
